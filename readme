@@ -7,6 +7,6 @@ And put it in bundle , load as imageSource.
 
 next, change CGImageMetadata into mutableMetadata.
 now! You can add matadata string you want e.g.
-CGImageMetadataSetValueMatchingImageProperty(mutableMetadata!, kCGImagePropertyTIFFDictionary, kCGImagePropertyTIFFMake, "Make e.g. Ricoh" as CFTypeRef)
+`CGImageMetadataSetValueMatchingImageProperty(mutableMetadata!, kCGImagePropertyTIFFDictionary, kCGImagePropertyTIFFMake, "Make e.g. Ricoh" as CFTypeRef)`
 
 Hope useful!
